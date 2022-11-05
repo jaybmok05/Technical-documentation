@@ -1,0 +1,110 @@
+/*====================foundation================*/
+body{
+    display: flex;
+    font-family: sans-serif;
+  }
+  /*========================================*/
+  /*====================nav=================*/
+  /*========================================*/
+  #navbar{
+    border-right: 2px solid rgb(221, 220, 220);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    overflow: auto;
+  }
+  nav{
+    display: block;
+  }
+  .nav-header{
+    font-size: 2rem;
+    color: #02518d;
+    background: orange;
+    padding: 1em;
+    
+  }
+  nav ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    font-size: 1.125rem;
+    margin: 0px;
+    text-transform: capitalize;
+  }
+  nav li{
+    border: 1px solid rgb(221, 220, 220);
+    padding: 1em 2em;
+    
+  }
+  nav a{
+    text-decoration: none;
+    color: grey;
+  }
+  /* nav li:hover{
+    padding: 1em 2em;
+    background: #c2c2c2;
+    border-left: 5px solid #02518d;
+  } 
+  nav a:hover{
+    color: #fff;
+  } */
+  
+  /*========================================*/
+  /*====================main================*/
+  /*========================================*/
+  main{
+    position: absolute;
+    margin: 40px 0px 110px 355px;
+    padding: 20px;
+  }
+  section{
+    margin-bottom: 30px;
+  }
+  .main-section header{
+    font-size: 1.75rem;
+    word-spacing: 0.1em;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #02518d;
+  }
+  .main-section p, .main-section li{
+    line-height: 2em;
+    color: grey;
+  }
+  code{
+    display: block;
+    font-size: 0.85rem;
+    width: 100%;
+    margin: 20px 0px;
+    padding: 1em 0px 1em 1em;
+    background: orange;
+    border-radius: 5px;
+    color: #02518d;
+  }
+  @media (max-width: 55.5em){
+   
+    main{
+      max-width: 100%;
+      margin: 0px;
+      position: relative;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+    }
+   
+    #navbar{
+      display: block;
+      position: relative; 
+      height: 300px;
+      margin: 0px;
+      border: 0px;
+      overflow: auto;
+    }
+  .nav-header{
+    text-align: center
+  }
+    
+  }
+  
